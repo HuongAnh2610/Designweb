@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #3FC;
+}
+h1{
+	color:#F00;
+}
+h2{
+	color:#FFF;
+}
+anh1{
+	background-color:#FC0;
+	width:1000px;
+	height:50px;
+	}
+img.anh{
+	display: block;
+	 margin-left: auto;
+    margin-right: auto;
+}
