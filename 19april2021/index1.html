@@ -30,7 +30,7 @@
  	function Tinhthuong() {
  		var a=document.getElementById('soa');
  		var b=document.getElementById('sob');
- 		var thuong=Number(a.value)/(b.value);
+ 		var thuong=Number(a.value)/Number(b.value);
  		var kq=document.getElementById('ketqua')
  		kq.value=thuong;
  	}
@@ -40,11 +40,11 @@
 <tr>
 <td>nhập số a:</td>
 <td><input type="text" id="soa"></td>
-</tr>
+</tr><br>
 <tr>
 	<td>nhập số b:</td>
 <td><input type="text" id="sob"></td>
-</tr>
+</tr><br>
 <tr>
 	<td>kết quả</td>
 	<td><input type="text" id="ketqua"></td>
